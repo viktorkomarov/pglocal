@@ -1,0 +1,1 @@
+docker build -t pglocal --build-arg POSTGRES_PASSWORD=password --build-arg POSTGRES_USER=user --build-arg POSTGRES_DB=project_test .
